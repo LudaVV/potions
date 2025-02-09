@@ -15,7 +15,7 @@ class RecepieScreen extends StatelessWidget {
 
     return
       Scaffold(
-        appBar: AppBar( title:Text('')),
+        appBar: AppBar( title: Icon(Icons.fastfood),),
           body: Center(
                 child: Padding(
                     padding: EdgeInsets.symmetric(horizontal: 15),
