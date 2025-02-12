@@ -99,17 +99,17 @@ final List<Recipe> recipes = [
 
   ),
 
-  /*Recipe(
+  Recipe(
       'Постный суп с бататом и нутом',
       'Прекрасное дополнение в пост! Батат можно заменить тыквой и добавить хлопья чили',
       [
-        RecipeComponent('вода', 270, units[3]),
-        RecipeComponent('батат', 200, units[1]),
-        RecipeComponent('отваренный нут', 100, units[1]),
-        RecipeComponent('репчатый лук', 100, units[1]),
-        RecipeComponent('топленое масло', 10, units[1]),
-        RecipeComponent('имбирь', 5, units[1]),
-        RecipeComponent('шампиньоны', 50, units[1]),
+        RecipeComponent(foods[18], 270, units[3]),
+        RecipeComponent(foods[38], 200, units[1]),
+        RecipeComponent(foods[39], 100, units[1]),
+        RecipeComponent(foods[10], 100, units[1]),
+        RecipeComponent(foods[6], 10, units[1]),
+        RecipeComponent(foods[40], 5, units[1]),
+        RecipeComponent(foods[17], 50, units[1]),
       ],
       'здесь будет описание процесса готовки'
   ),
