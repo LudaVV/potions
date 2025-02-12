@@ -118,16 +118,16 @@ final List<Recipe> recipes = [
       'Ленивые голубцы',
       '',
       [
-        RecipeComponent('нежирный говяжий фарш', 500, units[1]),
-        RecipeComponent('молодая капуста', 300, units[1]),
-        RecipeComponent('репчатый лук', 100, units[1]),
-        RecipeComponent('томат', 100, units[1]),
-        RecipeComponent('томатный сок', 80, units[3]),
-        RecipeComponent('бульон', 50, units[3]),
-        RecipeComponent('бурый рис', 50, units[1]),
-        RecipeComponent('укроп', 10, units[1]),
-        RecipeComponent('базилик', 5, units[1]),
-        RecipeComponent('топленое масло', 5, units[1]),
+        RecipeComponent(foods[41], 500, units[1]),
+        RecipeComponent(foods[42], 300, units[1]),
+        RecipeComponent(foods[10], 100, units[1]),
+        RecipeComponent(foods[25], 100, units[1]),
+        RecipeComponent(foods[43], 80, units[3]),
+        RecipeComponent(foods[11], 50, units[3]),
+        RecipeComponent(foods[5], 50, units[1]),
+        RecipeComponent(foods[28], 10, units[1]),
+        RecipeComponent(foods[44], 5, units[1]),
+        RecipeComponent(foods[6], 5, units[1]),
       ],
       'здесь будет описание процесса готовки'
   ),
@@ -167,7 +167,7 @@ final List<Recipe> recipes = [
       ],
       'здесь будет описание процесса готовки'
   ),
-*/
+
   Recipe(
       'Кранч с нектаринами',
       'Легкий и вкусный десерт. Накладывать горячий десерт ложкой. Очень вкусно с греческим йогуртом',
@@ -178,10 +178,83 @@ final List<Recipe> recipes = [
         RecipeComponent(foods[15], 35, units[1]),
         RecipeComponent(foods[35], 15, units[1]),
         RecipeComponent(foods[36], 5, units[1]),
-        RecipeComponent(foods[37], 200, units[1]),
+        RecipeComponent(foods[37], 400, units[1]),
         ],
       'Смешать овсянку, миндальную и рисовую муку, стевию, добавить щепотку соли и холодное масло, нарезанное кусочками. Быстро растереть в крошку. \n'
           'Из нектаринов удалить косточку, нарезать на четвертинки, а их - еще поперек на 3-4 кусочка. Смешать фрукты с крахмалом и стевией. Духовку разогреть до 200 С, распределить нектрины по форме, смазанной маслом. Сверху равномерно насыпать кранч. Выпекать около 25 минут'
       ),
+
+  Recipe(
+      'Ленивый хачапури по-аджарски',
+      '',
+      [
+        RecipeComponent(foods[0], 150, units[1]),
+        RecipeComponent(foods[51], 30, units[1]),
+        RecipeComponent(foods[1], 1, units[2]),
+        RecipeComponent(foods[15], 2, units[4]),
+      ],
+      'Яйцо разделить на желток и белок. Хорошо разогреть сковородку. Творог смешать с сыром, белком одного яйца, мукой и солью. Сформировать лодочку, готовить на медленном огне 3-4 минуты до легкого румянца.\n'
+      'Перевернуть широкой лопаткой и чайной ложкой сделать углубление в середине для желтка. Влить желток, посолить, посыпать сыром и еще минуты 3-4 готовить под крышкой.'
+  ),
+
+  Recipe(
+      'Кабачковое тако',
+      'ПП адаптация популярного мексиканского блюда. Примерно на 4 порции, на понадобится:',
+      [
+        RecipeComponent(foods[13], 300, units[1]),
+        RecipeComponent(foods[1], 2, units[2]),
+        RecipeComponent(foods[51], 50, units[1]),
+        RecipeComponent(foods[30], 50, units[1]),
+        RecipeComponent(foods[41], 200, units[1]),
+        RecipeComponent(foods[10], 50, units[1]),
+        RecipeComponent(foods[29], 2, units[2]),
+        RecipeComponent(foods[14], 1, units[2]),
+        RecipeComponent(foods[2], 75, units[1]),
+        RecipeComponent(foods[52], 1, units[0]),
+        RecipeComponent(foods[6], 1, units[0]),
+        RecipeComponent(foods[53], 2, units[4]),
+        RecipeComponent(foods[54], 1, units[4]),
+        RecipeComponent(foods[55], 4, units[2]),
+        RecipeComponent(foods[25], 2, units[2]),
+        RecipeComponent(foods[56], 10, units[1]),
+
+      ],
+      'Начнем с тортильи.\n'
+          'Кабачок и сыр натереть на крупной терке. Добавить яйца, муку, соль, специи. Все тщательно перемешать.'
+          'Ложкой выложить лепешки на противень, застеленный пергаментом. (примерно по 2-3 ст л ложки)' ''
+          'Выпекать в разогретой духовке около 20 минут при 200 градусах. За 5 минут до конца, я включила конвекцию.'
+          'Пока лепешки готовятся, займемся начинокй. Лук, чеснок и перец нарезать и немного прижарить на небольшом количестве масла. Затем добавить фарш. Периодически помешивать. Потом добавить томатную пасту, соль, специи и фасоль. Тушить до готовности.'
+          "Подготовим теперь соус и займемся овощной добавкой"
+          '1 зубчик чеснока потереть на мелкой терке. Добавить сметану и соевый соус. Все хорошо перемешать'
+          'Когда все ингридиенты готовы, собираем тако: в лепешку положить листья салата, затем начинку из фарша, фасоли и овощей, сверху полить соусом из сметаны, в конце дополняем нарезанными помидором, луком, перцем и петрушкой'
+
+  ),
+
+  Recipe(
+      'Банановый брауни',
+      'Простейший и вкусный пп-десерт',
+      [
+        RecipeComponent(foods[8], 2, units[2]),
+        RecipeComponent(foods[1], 2, units[2]),
+        RecipeComponent(foods[57], 4, units[4]),
+      ],
+      'Все смешать в блендере, залить в форму. Выпекать 30 минут на 180 градусах'
+  ),
+
+  Recipe(
+      'Овсяноблин с творогом, морковкой и ягодами',
+      'Вкусный и полезный завтрак',
+      [
+        RecipeComponent(foods[0], 200, units[1]),
+        RecipeComponent(foods[1], 1, units[2]),
+        RecipeComponent(foods[9], 30, units[1]),
+        RecipeComponent(foods[20], 80, units[1]),
+        RecipeComponent(foods[12], 50, units[1]),
+        RecipeComponent(foods[53], 20, units[1]),
+        RecipeComponent(foods[6], 7, units[1]),
+      ],
+      'Морковь натереть на средней терке, смешать со 100гр творога, добавить яйцо и овсянку. Измельчить блендером.'
+          'Топленое масло разогреть на сковородке и на '
+  ),
 
 ];
