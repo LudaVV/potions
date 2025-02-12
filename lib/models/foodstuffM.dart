@@ -1,3 +1,5 @@
+
+//Это модель данных для ПРОДУКТОВ питания
 class FoodstuffM{
   String title;
 
