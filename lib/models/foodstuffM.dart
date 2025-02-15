@@ -71,10 +71,10 @@ final List<FoodstuffM> foods = [
   FoodstuffM('Хурма'),
   FoodstuffM('Кокосовое молоко'),
   FoodstuffM('Семена чиа'),
-  FoodstuffM(''),
-  FoodstuffM(''),  //65
-  FoodstuffM(''),
-  FoodstuffM(''),
+  FoodstuffM('Кондитерский мак'),
+  FoodstuffM('Творожный сыр'),  //65
+  FoodstuffM('Огурцы'),
+  FoodstuffM('Рыба слабосоленая'),
   FoodstuffM(''),
   FoodstuffM(''),
   FoodstuffM(''),  //70
