@@ -65,9 +65,22 @@ final List<FoodstuffM> foods = [
   FoodstuffM('Листья салата'),  //55
   FoodstuffM('Кинза'),
   FoodstuffM('Какао'),
+  FoodstuffM('Облепиха'),
+  FoodstuffM('Апельсин'),
+  FoodstuffM('Мед'),  //60
+  FoodstuffM('Хурма'),
+  FoodstuffM('Кокосовое молоко'),
+  FoodstuffM('Семена чиа'),
+  FoodstuffM(''),
+  FoodstuffM(''),  //65
   FoodstuffM(''),
   FoodstuffM(''),
   FoodstuffM(''),
   FoodstuffM(''),
+  FoodstuffM(''),  //70
+  FoodstuffM(''),
+  FoodstuffM(''),
+
+
 
 ];
