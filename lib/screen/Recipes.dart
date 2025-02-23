@@ -37,6 +37,7 @@ class RecipeView extends StatelessWidget {
           height: 40.0,
           child: Row (
             children: [
+              Expanded(child:
               GestureDetector (
                 onTap: () {
                   Navigator.push(
@@ -45,9 +46,13 @@ class RecipeView extends StatelessWidget {
                   );
                   print ('I am tapped: ${recipe}');
                 },
-                child: Text (recipe.title),
-              ),
 
+                //child: Expanded(
+
+                  child: Text (recipe.title, softWrap: true,),
+              //),
+              )
+              ),
               SizedBox(width: 15),
               Icon(Icons.list_alt_outlined),
             ],
