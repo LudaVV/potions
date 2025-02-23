@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_edu/Shopping.dart';
 import 'package:test_edu/screen/Recipes.dart';
 
 //import 'Receipe Description.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: DefaultTabController(
-        length: 3,
+        length: 4,
         child: const MyHomePage(title: 'Education app from Yura'),
       )
     );
@@ -100,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Tab(icon: Icon(Icons.fastfood_outlined)),
             //Tab(child: Text('Продукты')),
             Tab(icon: Icon(Icons.scale_outlined)),
-
+            Tab(child: Text('Закупить')),
 
 
           ],
@@ -112,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Recipes(),
             Foodstuff (),
             Units(),
-
+            Shopping(),
           ]
       )
       /*floatingActionButton: ElevatedButton(
