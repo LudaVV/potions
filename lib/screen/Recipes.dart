@@ -10,13 +10,18 @@ class Recipes extends StatelessWidget {
     return Center(
         child: Padding(
         padding: EdgeInsets.symmetric(horizontal: 15),
-        child: Column(
+        child:
+            ListView.builder(
+              itemBuilder: (context, i) {return RecipeView(recipe: recipes[i]);},
+              itemCount: recipes.length,
+            )
+        /*Column(
           children: recipes.map(
                   (recipe) {
                     return RecipeView(recipe: recipe);
                   }
               ).toList(),
-        )
+        )*/
     )
     );
   }
